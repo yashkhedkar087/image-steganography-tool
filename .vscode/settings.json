@@ -1,0 +1,18 @@
+{
+    "cSpell.words": [
+        "fernet",
+        "fromarray",
+        "imgtk",
+        "imread",
+        "imwrite",
+        "numpy",
+        "opencv",
+        "pady",
+        "pycryptodome",
+        "scrollbars",
+        "scrollregion",
+        "Steganography",
+        "xscrollcommand",
+        "yscrollcommand"
+    ]
+}
