@@ -35,10 +35,9 @@ Install all required packages with:
 
 
 pip install -r requirements.txt
-```
 
 **requirements.txt**
-```
+
 opencv-python
 numpy
 pillow
@@ -52,19 +51,19 @@ base64
  
    git clone https://github.com/your-username/image-steganography.git
    cd image-steganography
-   ```
+   
 
 2. **Install dependencies**:
 
  
    pip install -r requirements.txt
-   ```
+   
 
 3. **Run the app**:
 
 
    python main.py
-   ```
+   
 
 
 ## 🛠️ Usage Guide
@@ -79,20 +78,20 @@ base64
 2. Click **"Load Image & Decode Message"**.
 3. Decrypted hidden message will be shown if key is correct.
 
----
+
 
 ## 🔐 Encryption Details
 
 This app uses **Fernet (AES 128 CBC + HMAC)** encryption from the `cryptography` package. The message is encrypted before embedding and decrypted after decoding.
 
----
+
 
 ## 📷 Steganography Technique
 
 - The Least Significant Bit (LSB) of each pixel is modified to hide encrypted message bits.
 - A delimiter `#####` is used to mark the end of the hidden message.
 
----
+
 
 ## ⚠️ Limitations
 
@@ -100,7 +99,7 @@ This app uses **Fernet (AES 128 CBC + HMAC)** encryption from the `cryptography`
 - Avoid using very large messages on small images.
 - Wrong encryption key will result in failure to decrypt message.
 
----
+
 
 ## 💡 Future Enhancements
 
